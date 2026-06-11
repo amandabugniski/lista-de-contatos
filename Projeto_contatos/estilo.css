@@ -31,6 +31,7 @@ body {
 .list {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .list-item {
@@ -39,7 +40,38 @@ body {
     padding: 16px;
 }
 
-.list-item__imagem img{
+.list-item__imagem img {
     width: 80px;
     border-radius: 50%;
+}
+
+.list-item__content {
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+.list-item__name {
+    font-size: 24px;
+    color: #385555;
+    margin: 0;
+}
+
+.list-item__email {
+    margin: 5px 0 0;
+    color: #aaa;
+}
+
+.list-item:hover {
+    background-color: #e8e8e8;
+}
+
+.list-item__action {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+}
+
+.list-item:hover .list-item__action {
+    opacity: 0.3;
 }
