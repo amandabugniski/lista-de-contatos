@@ -1,0 +1,21 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# Dependências, caso use npm no futuro
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Removendo configuração de idea
+.idea
