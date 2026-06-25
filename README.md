@@ -5,7 +5,7 @@ Uma versão em formato de lista vertical e uma versão em cards, com imagens de 
 
 Preview
 
-## Versão 1 - Lista vertical: 
+## Versão 1 - Lista vertical:
 
 ![Preview da versão em lista](./img/preview-versao-lista.png)
 
